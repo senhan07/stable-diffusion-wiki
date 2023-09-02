@@ -1,4 +1,4 @@
-# Models
+# ControlNet Models
 
 ### Canny Edge
 
@@ -58,7 +58,7 @@ Model ini menggunakan peta normal. Saat ini di APP, normal dihitung dari peta ke
 
 <figure><img src="../../.gitbook/assets/image (31).png" alt=""><figcaption><p>Prompt: "Plaster statue of Abraham Lincoln"</p></figcaption></figure>
 
-Dibandingkan dengan [depth model](models.md#depth), model ini tampaknya sedikit lebih baik dalam mempertahankan geometri. Hal ini bersifat intuitif: detail kecil tidak menonjol dalam [depth model](models.md#depth), tetapi menonjol dalam normal map. Di bawah ini adalah hasil depth dengan masukan yang sama. Anda bisa melihat, bahwa gaya rambut pria pada gambar masukan dimodifikasi oleh model kedalaman, tetapi dipertahankan oleh model normal.
+Dibandingkan dengan [depth model](controlnet-models.md#depth), model ini tampaknya sedikit lebih baik dalam mempertahankan geometri. Hal ini bersifat intuitif: detail kecil tidak menonjol dalam [depth model](controlnet-models.md#depth), tetapi menonjol dalam normal map. Di bawah ini adalah hasil depth dengan masukan yang sama. Anda bisa melihat, bahwa gaya rambut pria pada gambar masukan dimodifikasi oleh model kedalaman, tetapi dipertahankan oleh model normal.
 
 ### Anime Line Drawing
 

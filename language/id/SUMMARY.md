@@ -3,14 +3,17 @@
 ## Welcome
 
 * [Welcome](README.md)
-* [Quick Start](welcome/readme.md)
-* [Website Gratis Bikin AI](welcome/free-image-generator.md)
-* [Panduan Instalasi](welcome/installation-and-running/README.md)
-  * [Colab Web-UI Links](welcome/installation-and-running/colab-web-ui-links.md)
+* [Glosarium](welcome/glosarium.md)
+* [Panduan Instalasi](welcome/installation-and-running.md)
 
 ***
 
 * [Pertanyaan yang Sering Diajukan (FAQ)](frequently-asked-questions-faq.md)
+
+## Links
+
+* [Website Gratis Bikin AI](links/free-image-generator.md)
+* [Colab Web-UI Links](links/colab-web-ui-links.md)
 
 ## Tutorial
 
@@ -37,8 +40,12 @@
 * [Inpainting](tutorial/inpainting.md)
 * [Outpainting](tutorial/outpainting.md)
 * [ControlNet](tutorial/controlnet/README.md)
-  * [Models](tutorial/controlnet/models.md)
+  * [ControlNet Models](tutorial/controlnet/controlnet-models.md)
 * [Upscaling](tutorial/upscaling.md)
+* [Fine Tuning](tutorial/fine-tuning/README.md)
+  * [LoRA](tutorial/fine-tuning/lora.md)
+  * [Lycoris](tutorial/fine-tuning/lycoris.md)
+  * [Textual Inversion](tutorial/fine-tuning/textual-inversion.md)
 
 ## Stable Diffusion
 

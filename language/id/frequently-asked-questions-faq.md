@@ -4,6 +4,6 @@
 
 <summary>Website yang bisa bikin AI gratis dimana?</summary>
 
-Liat di [free-image-generator.md](welcome/free-image-generator.md "mention")
+Lihat di [free-image-generator.md](links/free-image-generator.md "mention")
 
 </details>

@@ -16,7 +16,7 @@ layout:
 
 ### Google Colab
 
-Tersedia di [colab-web-ui-links.md](colab-web-ui-links.md "mention")
+Tersedia di [colab-web-ui-links.md](../links/colab-web-ui-links.md "mention")
 
 ***
 
