@@ -12,7 +12,7 @@ layout:
     visible: true
 ---
 
-# Stable Diffusion
+# What is Stable Diffusion
 
 Stable Diffusion is a [deep learning](https://en.wikipedia.org/wiki/Deep\_learning), [text-to-image model](https://en.wikipedia.org/wiki/Text-to-image\_model) released in 2022 based on [diffusion](https://en.wikipedia.org/wiki/Diffusion\_model) techniques. It is primarily used to generate detailed images conditioned on text descriptions, though it can also be applied to other tasks such as [inpainting](https://en.wikipedia.org/wiki/Inpainting), outpainting, and generating image-to-image translations guided by a [text prompt](https://en.wikipedia.org/wiki/Prompt\_engineering). It was developed by researchers from the CompVis Group at [Ludwig Maximilian University of Munich](https://en.wikipedia.org/wiki/Ludwig\_Maximilian\_University\_of\_Munich) and Runway with a compute donation by Stability AI and training data from non-profit organizations.
 
@@ -28,7 +28,7 @@ In October 2022, Stability AI raised US$101 million in a round led by [Lightspee
 
 #### Architecture
 
-<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption><p>Diagram of the latent diffusion architecture used by Stable Diffusion</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption><p>Diagram of the latent diffusion architecture used by Stable Diffusion</p></figcaption></figure>
 
 Stable Diffusion uses a kind of [diffusion model](https://en.wikipedia.org/wiki/Diffusion\_model) (DM), called a latent diffusion model (LDM) developed by the CompVis group at [LMU Munich](https://en.wikipedia.org/wiki/LMU\_Munich). Introduced in 2015, diffusion models are trained with the objective of removing successive applications of [Gaussian noise](https://en.wikipedia.org/wiki/Gaussian\_noise) on training images, which can be thought of as a sequence of [denoising autoencoders](https://en.wikipedia.org/wiki/Denoising\_autoencoder). Stable Diffusion consists of 3 parts: the [variational autoencoder](https://en.wikipedia.org/wiki/Variational\_autoencoder) (VAE), [U-Net](https://en.wikipedia.org/wiki/U-Net), and an optional text encoder. The VAE encoder compresses the image from pixel space to a smaller dimensional [latent space](https://en.wikipedia.org/wiki/Latent\_space), capturing a more fundamental semantic meaning of the image. Gaussian noise is iteratively applied to the compressed latent representation during forward diffusion. The U-Net block, composed of a [ResNet](https://en.wikipedia.org/wiki/Residual\_neural\_network) backbone, [denoises](https://en.wikipedia.org/wiki/Noise\_reduction) the output from forward diffusion backwards to obtain a latent representation. Finally, the VAE decoder generates the final image by converting the representation back into pixel space.
 
@@ -40,7 +40,7 @@ With 860 millions of parameters in the U-Net and 123 millions in the text encode
 
 Stable Diffusion was trained on pairs of images and captions taken from LAION-5B, a publicly available dataset derived from [Common Crawl](https://en.wikipedia.org/wiki/Common\_Crawl) data scraped from the web, where 5 billion image-text pairs were classified based on language and filtered into separate datasets by resolution, a predicted likelihood of containing a watermark, and predicted "aesthetic" score (e.g. subjective visual quality). The dataset was created by [LAION](https://en.wikipedia.org/wiki/LAION), a German non-profit which receives funding from Stability AI. The Stable Diffusion model was trained on three subsets of LAION-5B: laion2B-en, laion-high-resolution, and laion-aesthetics v2 5+. A third-party analysis of the model's training data identified that out of a smaller subset of 12 million images taken from the original wider dataset used, approximately 47% of the sample size of images came from 100 different domains, with [Pinterest](https://en.wikipedia.org/wiki/Pinterest) taking up 8.5% of the subset, followed by websites such as [WordPress](https://en.wikipedia.org/wiki/WordPress), [Blogspot](https://en.wikipedia.org/wiki/Blogspot), [Flickr](https://en.wikipedia.org/wiki/Flickr), [DeviantArt](https://en.wikipedia.org/wiki/DeviantArt) and [Wikimedia Commons](https://en.wikipedia.org/wiki/Wikimedia\_Commons).
 
-<figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption><p>The denoising process used by Stable Diffusion. The model generates images by iteratively denoising random noise until a configured number of steps have been reached, guided by the CLIP text encoder pretrained on concepts along with the attention mechanism, resulting in the desired image depicting a representation of the trained concept.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>The denoising process used by Stable Diffusion. The model generates images by iteratively denoising random noise until a configured number of steps have been reached, guided by the CLIP text encoder pretrained on concepts along with the attention mechanism, resulting in the desired image depicting a representation of the trained concept.</p></figcaption></figure>
 
 #### Training procedures
 
@@ -74,7 +74,7 @@ Stable Diffusion is recommended to be run with 10 GB or more VRAM, however users
 
 Demonstration of the effect of negative prompts on image generation
 
-<table data-full-width="false"><thead><tr><th align="center">no negative prompt</th><th align="center">"green trees"</th><th align="center">"round stones, round rocks"</th></tr></thead><tbody><tr><td align="center"><img src=".gitbook/assets/image (2) (1).png" alt=""></td><td align="center"><img src=".gitbook/assets/image (3) (1).png" alt=""></td><td align="center"><img src=".gitbook/assets/image (5).png" alt=""></td></tr></tbody></table>
+<table data-full-width="false"><thead><tr><th align="center">no negative prompt</th><th align="center">"green trees"</th><th align="center">"round stones, round rocks"</th></tr></thead><tbody><tr><td align="center"><img src="../../.gitbook/assets/image (2) (1).png" alt=""></td><td align="center"><img src="../../.gitbook/assets/image (3) (1).png" alt=""></td><td align="center"><img src="../../.gitbook/assets/image (5).png" alt=""></td></tr></tbody></table>
 
 The text to image sampling script within Stable Diffusion, known as "txt2img", consumes a text prompt in addition to assorted option parameters covering sampling types, output image dimensions, and seed values. The script outputs an image file based on the model's interpretation of the prompt. Generated images are tagged with an invisible [digital watermark](https://en.wikipedia.org/wiki/Digital\_watermark) to allow users to identify an image as generated by Stable Diffusion, although this watermark loses its efficacy if the image is resized or rotated.
 
