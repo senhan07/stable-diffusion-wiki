@@ -6,6 +6,10 @@
 * [Free Image Generator](quick-start/free-image-generator.md)
 * [Installation and Running](quick-start/installation-and-running.md)
 
+***
+
+* [indonesia](indonesia.md)
+
 ## Group 1
 
 * [Frequently Asked Questions (FAQ)](group-1/frequently-asked-questions-faq.md)
