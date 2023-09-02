@@ -3,12 +3,12 @@
 ## Quick Start
 
 * [Quick Start](README.md)
-* [Free Image Generator](quick-start/free-image-generator.md)
+* [Website Gratis Bikin AI](quick-start/free-image-generator.md)
 * [Installation and Running](quick-start/installation-and-running.md)
 
 ## Group 1
 
-* [Frequently Asked Questions (FAQ)](group-1/frequently-asked-questions-faq.md)
+* [Pertanyaan yang Sering Diajukan (FAQ)](group-1/frequently-asked-questions-faq.md)
 
 ## Tutorial
 

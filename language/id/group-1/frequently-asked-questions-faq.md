@@ -1,9 +1,9 @@
-# Frequently Asked Questions (FAQ)
+# Pertanyaan yang Sering Diajukan (FAQ)
 
 <details>
 
-<summary>Where can i generate images for free ?</summary>
+<summary>Kalau website yang bisa bikin AI gratis apa dimana?</summary>
 
-See [free-image-generator.md](../quick-start/free-image-generator.md "mention")
+Liat di [free-image-generator.md](../quick-start/free-image-generator.md "mention")
 
 </details>
