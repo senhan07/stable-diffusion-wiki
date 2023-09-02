@@ -1,3 +1,0 @@
-# Indonesia Language
-
-WIP
