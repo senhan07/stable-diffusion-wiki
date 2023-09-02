@@ -4,7 +4,7 @@
 
 * [Quick Start](README.md)
 * [Website Gratis Bikin AI](quick-start/free-image-generator.md)
-* [Installation and Running](quick-start/installation-and-running.md)
+* [Cara Instalasi](quick-start/installation-and-running.md)
 
 ## Group 1
 
