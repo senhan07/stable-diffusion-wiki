@@ -10,6 +10,16 @@
 
 * [Frequently Asked Questions (FAQ)](group-1/frequently-asked-questions-faq.md)
 
+## Tutorial
+
+* [Prompting](tutorial/prompting.md)
+* [Text to Image](tutorial/text-to-image.md)
+* [Image to Image](tutorial/image-to-image.md)
+* [Inpainting](tutorial/inpainting.md)
+* [Outpainting](tutorial/outpainting.md)
+* [ControlNet](tutorial/controlnet.md)
+* [Upscaling](tutorial/upscaling.md)
+
 ## Stable Diffusion
 
 * [What is Stable Diffusion](stable-diffusion/what-is-stable-diffusion/README.md)
