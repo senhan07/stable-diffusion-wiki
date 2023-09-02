@@ -34,9 +34,9 @@ Colab is Google’s interactive computing platform. We provide a notebook for yo
 
 **This is for you if**
 
-👉 You want the most advanced features. \
+👉 You want the most advanced features.\
 👉 You don’t have the proper hardware or don’t want to use it.\
-👉 You are tech-savvy enough to deal with model files. \
+👉 You are tech-savvy enough to deal with model files.\
 👉 You don’t mind paying a modest fee to use regularly.
 {% endtab %}
 
@@ -55,9 +55,9 @@ You need a discrete NVIDIA graphic card with at least 4GB VRAM.
 
 **This is for you if**
 
-👉 You want the most advanced features. \
-👉 You have the proper hardware on your PC and don’t mind using it for SD. \
-👉 You are tech-savvy enough to install and maintain software on your PC. \
+👉 You want the most advanced features.\
+👉 You have the proper hardware on your PC and don’t mind using it for SD.\
+👉 You are tech-savvy enough to install and maintain software on your PC.\
 👉 You want a completely free solution.
 {% endtab %}
 
@@ -76,10 +76,10 @@ You need Apple Silicon M1 or M2.
 
 **This is for you if**
 
-👉 You want the most advanced features but ok with some features being not available. \
-👉 You have the right hardware on your PC and don’t mind using it for SD. \
-👉 You are tech-savvy enough to install and maintain software on your PC. \
-👉 You want a completely free solution. \
+👉 You want the most advanced features but ok with some features being not available.\
+👉 You have the right hardware on your PC and don’t mind using it for SD.\
+👉 You are tech-savvy enough to install and maintain software on your PC.\
+👉 You want a completely free solution.\
 👉 You don’t mind image generation is a bit slow on Mac.
 {% endtab %}
 {% endtabs %}
@@ -148,7 +148,7 @@ disfigured, ugly, bad, immature, cartoon, anime, 3d, painting, b&w
 
 Model: F222
 
-<img src=".gitbook/assets/image.png" alt="" data-size="original">
+<img src=".gitbook/assets/image (14).png" alt="" data-size="original">
 
 </details>
 
@@ -170,7 +170,7 @@ underage, immature, disfigured, deformed
 
 Model: [Lyriel v1.5](https://civitai.com/models/22922/lyriel)
 
-<img src=".gitbook/assets/image (1).png" alt="" data-size="original">
+<img src=".gitbook/assets/image (1) (2).png" alt="" data-size="original">
 
 </details>
 
@@ -192,6 +192,6 @@ ugly, tiling, poorly drawn hands, poorly drawn feet, poorly drawn face, out of f
 
 Model: [Stable Diffusion 2.1](https://stable-diffusion-art.com/install-stable-diffusion-2-1/)
 
-![](<.gitbook/assets/image (2).png>)
+<img src=".gitbook/assets/image (2) (2).png" alt="" data-size="original">
 
 </details>

@@ -1,0 +1,13 @@
+# Extra noise
+
+Menambahkan noise tambahan dari seed acak, ditentukan oleh pengaturan, default ke `0`. Tersedia dalam pengaturan di bawah `img2img -> Extra noise multiplier for img2img and hires fix.` Seperti yang dicatat dalam UI, parameter ini harus selalu lebih rendah dari kekuatan denoising yang digunakan untuk menghasilkan hasil terbaik.
+
+Salah satu tujuan dari tweak ini adalah untuk menambahkan kembali detail tambahan ke dalam hires fix. Untuk pemahaman yang sangat sederhana, Anda dapat menganggapnya sebagai persilangan antara peningkatan GAN dan peningkatan laten.
+
+Contoh di bawah ini adalah gambar 512x512 dengan hires fix yang diterapkan, menggunakan upscaler GAN (4x-UltraSharp), pada kekuatan denoising 0,45. Gambar di sebelah kanan memanfaatkan tweak noise ekstra ini.
+
+|                                                                                                        Extra noise = 0                                                                                                       |                                                                                                     Extra noise = 0.2                                                                                                     |
+| :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| [![without](https://user-images.githubusercontent.com/122327233/260556373-9257aa18-dfc8-49f6-9984-a0a1f430c029.png)](https://user-images.githubusercontent.com/122327233/260556373-9257aa18-dfc8-49f6-9984-a0a1f430c029.png) | [![with](https://user-images.githubusercontent.com/122327233/260556387-0c6df12c-7412-43d5-84d2-2a69ad6152c4.png)](https://user-images.githubusercontent.com/122327233/260556387-0c6df12c-7412-43d5-84d2-2a69ad6152c4.png) |
+
+Perhatikan, bahwa pengaturan sebelumnya yang diimplementasikan pada waktu beberapa bulan yang lalu (Noise multiplier untuk img2img) secara teknis mencapai efek yang sama, tetapi seperti yang disebutkan dalam namanya, hanya berlaku untuk img2img (bukan hires. fix), dan karena diterapkan, pengaturan ini sangat sensitif, dan secara realistis, hanya berguna dalam kisaran `1` hingga `1.1`. Untuk hampir semua operasi, disarankan untuk menggunakan parameter `Extra noise` yang baru.

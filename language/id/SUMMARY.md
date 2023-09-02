@@ -4,20 +4,38 @@
 
 * [Quick Start](README.md)
 * [Website Gratis Bikin AI](quick-start/free-image-generator.md)
-* [Cara Instalasi](quick-start/installation-and-running.md)
+* [Panduan Instalasi](quick-start/installation-and-running.md)
 
-## Group 1
+***
 
-* [Pertanyaan yang Sering Diajukan (FAQ)](group-1/frequently-asked-questions-faq.md)
+* [Pertanyaan yang Sering Diajukan (FAQ)](frequently-asked-questions-faq.md)
 
 ## Tutorial
 
-* [Prompting](tutorial/prompting.md)
-* [Text to Image](tutorial/text-to-image.md)
-* [Image to Image](tutorial/image-to-image.md)
+* [Prompting](tutorial/prompting/README.md)
+  * [Attention / Emphasis](tutorial/prompting/attention-emphasis.md)
+  * [Negative Prompt](tutorial/prompting/negative-prompt.md)
+  * [CLIP Interrogator](tutorial/prompting/clip-interrogator.md)
+  * [Prompt Editing](tutorial/prompting/prompt-editing.md)
+  * [Alternating Words](tutorial/prompting/alternating-words.md)
+* [Text to Image](tutorial/text-to-image/README.md)
+  * [Sampling method](tutorial/text-to-image/sampling-method.md)
+  * [Hires. fix](tutorial/text-to-image/hires.-fix.md)
+  * [Upscalers](tutorial/text-to-image/upscalers.md)
+  * [Face restoration](tutorial/text-to-image/face-restoration.md)
+  * [Clip Skip](tutorial/text-to-image/clip-skip.md)
+* [Image to Image](tutorial/image-to-image/README.md)
+  * [Resizing](tutorial/image-to-image/resizing.md)
+  * [Extra noise](tutorial/image-to-image/extra-noise.md)
+* [Extra](tutorial/extra/README.md)
+  * [X/Y/Z plot](tutorial/extra/x-y-z-plot.md)
+  * [Prompt S/R](tutorial/extra/prompt-s-r.md)
+  * [Prompts from file or textbox](tutorial/extra/prompts-from-file-or-textbox.md)
+  * [Prompt matrix](tutorial/extra/prompt-matrix.md)
 * [Inpainting](tutorial/inpainting.md)
 * [Outpainting](tutorial/outpainting.md)
-* [ControlNet](tutorial/controlnet.md)
+* [ControlNet](tutorial/controlnet/README.md)
+  * [Models](tutorial/controlnet/models.md)
 * [Upscaling](tutorial/upscaling.md)
 
 ## Stable Diffusion
