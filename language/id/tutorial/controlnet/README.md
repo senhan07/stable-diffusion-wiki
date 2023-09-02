@@ -10,7 +10,7 @@ Pengguna Stable Diffusion yang berpengalaman tahu betapa sulitnya menghasilkan k
 
 Dengan ControlNet, pengguna Stable Diffusion akhirnya memiliki cara untuk mengontrol di mana subjek berada dan bagaimana penampilan mereka dengan presisi!
 
-## Apa itu ControlNet?&#x20;
+## Apa itu ControlNet ?&#x20;
 
 ControlNet adalah model jaringan saraf untuk mengendalikan model Difusi Stabil. Anda dapat menggunakan ControlNet bersama dengan model Stable Diffusion apa pun.
 
@@ -20,13 +20,13 @@ ControlNet menambahkan satu pengkondisian lagi sebagai tambahan dari perintah te
 
 Mari saya tunjukkan dua contoh apa yang dapat dilakukan ControlNet: Mengontrol pembuatan gambar dengan (1) edge detection and (2) human pose detection.
 
-### Edge detection example
+### Contoh Edge detection
 
 <figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption><p>Stable Diffusion ControlNet with Canny edge conditioning.</p></figcaption></figure>
 
 Proses mengekstraksi informasi spesifik (tepi dalam kasus ini) dari gambar input disebut anotasi atau prapemrosesan (dalam ekstensi ControlNet).
 
-### Human pose detection example
+### Contoh Human pose detection
 
 Deteksi tepi bukan satu-satunya cara untuk memproses gambar. Openpose adalah model pendeteksian titik kunci manusia yang cepat yang dapat mengekstrak pose manusia seperti posisi tangan, kaki, dan kepala. Lihat contoh di bawah ini.\
 

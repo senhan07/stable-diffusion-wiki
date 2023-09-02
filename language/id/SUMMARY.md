@@ -1,10 +1,12 @@
 # Table of contents
 
-## Quick Start
+## Welcome
 
-* [Quick Start](README.md)
-* [Website Gratis Bikin AI](quick-start/free-image-generator.md)
-* [Panduan Instalasi](quick-start/installation-and-running.md)
+* [Welcome](README.md)
+* [Quick Start](welcome/readme.md)
+* [Website Gratis Bikin AI](welcome/free-image-generator.md)
+* [Panduan Instalasi](welcome/installation-and-running/README.md)
+  * [Colab Web-UI Links](welcome/installation-and-running/colab-web-ui-links.md)
 
 ***
 
