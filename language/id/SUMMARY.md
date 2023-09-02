@@ -1,3 +1,3 @@
 # Table of contents
 
-* [Indonesia Page](README.md)
+* [Indonesia Language](README.md)
