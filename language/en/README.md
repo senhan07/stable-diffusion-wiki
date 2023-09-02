@@ -1,2 +1,47 @@
-# English Page
+---
+layout:
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
 
+# Stable Diffusion
+
+### What is Stable Diffusion
+
+More seriously stable diffusion is an open-source machine learning technology that can generate images from text. It has been trained on billions of images.
+
+Stable Diffusion (SD) is a deep-learning, text-to-image model that was released in 2022. Its primary function is to generate detailed images based on text descriptions. The model uses a combination of random static generation, noise, and pattern recognition through neural nets that are trained on keyword pairs. These pairs correspond to patterns found in a given training image that match a particular keyword.
+
+To generate an image, the user inputs a text description, and the SD model references the keyword pairs associated with the words in the description. The model then produces a shape that corresponds to the patterns identified in the image. Over several passes, the image becomes clearer and eventually results in a final image that matches the text prompt.
+
+Stable Diffusion is a latent diffusion model, which is a type of deep generative neural network. It was developed by the CompVis group at LMU Munich in collaboration with Stability AI, Runway, EleutherAI, and LAION. In October 2022, Stability AI raised US$101 million in a round led by Lightspeed Venture Partners and Coatue Management.
+
+Stable Diffusion's code and model weights have been released publicly, and it can run on most consumer hardware equipped with a modest GPU with at least 8 GB VRAM. This marks a departure from previous proprietary text-to-image models such as DALL-E and Mid Journey, which were accessible only via cloud services.
+
+To better understand Stable Diffusion and how it works, there are several visual guides available. Jalammar's blog ([https://jalammar.github.io/illustrated-stable-diffusion/](https://jalammar.github.io/illustrated-stable-diffusion/)) provides an illustrated guide to the model, while the Stable Diffusion Art website ([https://stable-diffusion-art.com/how-stable-diffusion-work/](https://stable-diffusion-art.com/how-stable-diffusion-work/)) offers a step-by-step breakdown of the process.
+
+Wikipedia: [https://stability.ai/https://en.wikipedia.org/wiki/Stable\_Diffusion](https://stability.ai/https://en.wikipedia.org/wiki/Stable\_Diffusion)\
+Source Code: [https://github.com/justinpinkney/stable-diffusion](https://github.com/justinpinkney/stable-diffusion)\
+Homepage: [https://stability.ai/ ](https://stability.ai/)
+
+### Origins and Research of Stable Diffusion
+
+Stable Diffusion (SD) is a deep-learning, text-to-image model that was released in 2022. It was developed by the CompVis group at LMU Munich in collaboration with Stability AI, Runway, EleutherAI, and LAION. The model was created through extensive research into deep generative neural networks and the diffusion process.
+
+In the original announcement ([https://stability.ai/blog/stable-diffusion-announcement](https://stability.ai/blog/stable-diffusion-announcement)), the creators of SD outlined the model's key features and capabilities. These include the ability to generate high-quality images based on text descriptions, as well as the flexibility to be applied to other tasks such as inpainting and image-to-image translation.
+
+Stable Diffusion is a latent diffusion model, which is a type of deep generative neural network that uses a process of random noise generation and diffusion to create images. The model is trained on large datasets of images and text descriptions to learn the relationships between the two. This training process involves extensive experimentation and optimization to ensure that the model can accurately generate images based on text prompts.
+
+The source code for Stable Diffusion is publicly available on GitHub ([https://github.com/CompVis/stable-diffusion](https://github.com/CompVis/stable-diffusion)). This allows researchers and developers to experiment with the model, contribute to its development, and use it for their own projects.
+
+Stability AI, the primary sponsor of Stable Diffusion, raised US$101 million in October 2022 to support further research and development of the model. The success of the model has highlighted the potential of deep learning and generative neural networks in the field of computer vision and image generation.
+
+[https://research.runwayml.com/the-research-origins-of-stable-difussion](https://research.runwayml.com/the-research-origins-of-stable-difussion)
