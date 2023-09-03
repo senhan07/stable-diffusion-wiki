@@ -6,15 +6,15 @@ coverY: 0
 layout:
   cover:
     visible: false
-    size: hero
+    size: full
   title:
     visible: false
   description:
     visible: false
   tableOfContents:
-    visible: false
+    visible: true
   outline:
-    visible: false
+    visible: true
   pagination:
     visible: true
 ---
