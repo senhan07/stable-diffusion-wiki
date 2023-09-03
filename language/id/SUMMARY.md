@@ -3,12 +3,12 @@
 ## Welcome
 
 * [Welcome](README.md)
-* [Glosarium](welcome/glosarium.md)
+* [Istilah Dasar](welcome/istilah-dasar.md)
 * [Panduan Instalasi](welcome/installation-and-running.md)
 
 ***
 
-* [Pertanyaan yang Sering Diajukan (FAQ)](frequently-asked-questions-faq.md)
+* [FAQ](frequently-asked-questions-faq.md)
 
 ## Links
 
@@ -18,11 +18,11 @@
 ## Tutorial
 
 * [Prompting](tutorial/prompting/README.md)
-  * [Attention / Emphasis](tutorial/prompting/attention-emphasis.md)
   * [Negative Prompt](tutorial/prompting/negative-prompt.md)
-  * [CLIP Interrogator](tutorial/prompting/clip-interrogator.md)
+  * [Attention / Emphasis](tutorial/prompting/attention-emphasis.md)
   * [Prompt Editing](tutorial/prompting/prompt-editing.md)
   * [Alternating Words](tutorial/prompting/alternating-words.md)
+  * [CLIP Interrogator](tutorial/prompting/clip-interrogator.md)
 * [Text to Image](tutorial/text-to-image/README.md)
   * [Sampling method](tutorial/text-to-image/sampling-method.md)
   * [Hires. fix](tutorial/text-to-image/hires.-fix.md)

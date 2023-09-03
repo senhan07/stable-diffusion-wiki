@@ -62,7 +62,7 @@ Ini bisa menjadi bagian yang paling sulit. Ironis, ya? Tapi memang benar - kita 
 Berikut adalah beberapa tips yang dapat membantu Anda dengan masalah ini:
 
 * <mark style="background-color:orange;">**Urutan itu penting!!!**</mark> Ingatlah bahwa urutan itu penting - kata-kata yang berada di dekat bagian depan atau awal prompt memiliki bobot yang lebih besar dibandingkan dengan kata-kata yang berada di bagian belakang prompt.
-* Jika Anda masih menggunakan kata "very" sebelum kata lainnya, <mark style="background-color:orange;">**HENTIKAN.SEGERA**</mark>. Cobalah untuk menemukan kata yang lebih tepat daripada menambahkan kata "very" pada semua kata.&#x20;
+* Jika Anda masih menggunakan kata "very" sebelum kata lainnya, <mark style="background-color:orange;">**HENTIKAN SEGERA**</mark>. Cobalah untuk menemukan kata yang lebih tepat daripada menambahkan kata "very" pada semua kata.&#x20;
 
 Coba ikuti langkah-langkah berikut ini: **content type > description > style > composition**
 
@@ -124,3 +124,9 @@ Triadic colour scheme, washed colour
 ```
 
 Source: [https://prompthero.com/stable-diffusion-prompt-guide](https://prompthero.com/stable-diffusion-prompt-guide)
+
+***
+
+## Prompt Book
+
+{% embed url="https://docs.google.com/presentation/d/e/2PACX-1vRMMRBkjFI1cQe4X1GMDp7REt5Jh-vCRRMKK_vMnvVzuj_wP6kzQNRORZOu3Bi-V_nnikgxlqYTTf6O/embed?delayms=3000&loop=false&start=false" %}

@@ -14,19 +14,19 @@ layout:
 
 # Panduan Instalasi
 
-### Google Colab
+## Google Colab
 
 Tersedia di [colab-web-ui-links.md](../links/colab-web-ui-links.md "mention")
 
 ***
+
+## Windows
 
 Pastikan [dependencies](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Dependencies) yang diperlukan terpenuhi dan ikuti petunjuk yang tersedia untuk:
 
 * [NVidia](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Install-and-Run-on-NVidia-GPUs) (disarankan)
 * GPU [AMD](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Install-and-Run-on-AMD-GPUs).
 * [CPU Intel, GPU Intel (baik yang terintegrasi maupun yang terpisah)](https://github.com/openvinotoolkit/stable-diffusion-webui/wiki/Installation-on-Intel-Silicon) (halaman wiki eksternal)
-
-### Windows
 
 #### Instalasi pada Windows 10/11 dengan NVidia-GPU menggunakan paket rilis
 
@@ -45,7 +45,7 @@ Pastikan [dependencies](https://github.com/AUTOMATIC1111/stable-diffusion-webui/
 
 ***
 
-### Linux (Instalasi Otomatis)
+## Linux (Instalasi Otomatis)
 
 1. Instal dependensi:
 
@@ -69,7 +69,7 @@ wget -q https://raw.githubusercontent.com/AUTOMATIC1111/stable-diffusion-webui/m
 
 ***
 
-### Apple Silicon
+## Apple Silicon
 
 Temukan petunjuknya [di sini](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Installation-on-Apple-Silicon).
 

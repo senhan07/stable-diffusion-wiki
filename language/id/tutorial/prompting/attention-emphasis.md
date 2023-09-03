@@ -1,8 +1,12 @@
+---
+description: Penekanan kata pada prompt
+---
+
 # Attention / Emphasis
 
 ## Emphasis / Penekanan
 
-Menggunakan () pada prompt akan meningkatkan perhatian model pada kata-kata yang diapit, dan \[] akan menurunkannya. Anda dapat menggabungkan beberapa pengubah:
+Menggunakan `()` pada prompt akan meningkatkan penekanan pada kata-kata yang diapit, dan `[]` akan menurunkannya. Anda dapat menggabungkan beberapa pengubah:
 
 <div data-full-width="false">
 
@@ -17,6 +21,6 @@ Menggunakan () pada prompt akan meningkatkan perhatian model pada kata-kata yang
 * `a (word:0.25)` - kurangi perhatian pada kata dengan faktor 4 (= 1 / 0.25)
 * `a \(word\)` - gunakan karakter literal () dalam prompt
 
-Dengan `()`, bobot dapat ditentukan seperti ini: `(text:1.4)`. Jika bobot tidak ditentukan, maka diasumsikan sebagai 1.1. Menentukan bobot hanya dapat dilakukan dengan `()`, bukan dengan `[]`.
+Dengan `()`, bobot dapat ditentukan seperti ini: `(text:1.4)`. Jika bobot tidak ditentukan, maka diasumsikan sebagai `1.1`. Menentukan bobot hanya dapat dilakukan dengan `()`, bukan dengan `[]`.
 
 Jika Anda ingin menggunakan salah satu karakter literal `()[]` dalam prompt, gunakan garis miring untuk menghilangkannya: `anime_(character)`.
