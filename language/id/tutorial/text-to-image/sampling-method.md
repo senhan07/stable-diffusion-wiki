@@ -45,7 +45,7 @@ Gambar yang dihasilkan dengan Euler a tidak menyatu pada langkah pengambilan sam
 
 ## Karras noise schedule
 
-Sampler dengan label "Karras" menggunakan jadwal derau yang direkomendasikan dalam[ artikel Karras](https://arxiv.org/abs/2206.00364). Jika Anda mencermati dengan saksama, Anda akan melihat ukuran langkah noise yang lebih kecil di bagian akhir. Mereka menemukan bahwa hal ini meningkatkan kualitas gambar.\
+Sampler dengan label "Karras" menggunakan noise schedule yang direkomendasikan dalam[ artikel Karras](https://arxiv.org/abs/2206.00364). Jika Anda mencermati dengan saksama, Anda akan melihat ukuran langkah noise yang lebih kecil di bagian akhir. Mereka menemukan bahwa hal ini meningkatkan kualitas gambar.\
 
 
 <figure><img src="../../.gitbook/assets/image (48).png" alt=""><figcaption><p>Comparison between the default and Karras noise schedule.</p></figcaption></figure>
