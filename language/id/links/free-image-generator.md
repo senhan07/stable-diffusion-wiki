@@ -7,7 +7,7 @@
 * [https://sinkin.ai/](https://sinkin.ai/)
 * [https://getimg.ai/](https://getimg.ai/)
 * [https://fotor.com/features/ai-image-generator/](https://fotor.com/features/ai-image-generator/)
-* [https://leonardoai.com/](https://leonardoai.com/)
+* [https://leonardo.ai/](https://leonardo.ai/)
 * [https://neural.love/ai-art-generator/](https://neural.love/ai-art-generator/)
 * [https://canva.com/ai-image-generator/](https://canva.com/ai-image-generator/)
 * [https://deepai.org/machine-learning-model/text2img](https://deepai.org/machine-learning-model/text2img)
