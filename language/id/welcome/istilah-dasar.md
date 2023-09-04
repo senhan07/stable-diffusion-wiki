@@ -1,8 +1,28 @@
 ---
 description: Apa yang kamu harus tau
+cover: ../.gitbook/assets/BASIC.jpg
+coverY: 0
+layout:
+  cover:
+    visible: true
+    size: hero
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
 ---
 
 # Istilah Dasar
+
+## Model
+
+"Model" adalah istilah umum yang mengacu pada Model Pembelajaran Mesin. Anda mungkin juga pernah mendengar model disebut "checkpoints" sebelumnya, karena itu adalah istilah yang digunakan untuk menggambarkan checkpoints dari proses pelatihan model dan juga jenis file yang digunakan oleh perangkat lunak yang menggunakan python-lightning secara internal. Istilah lain yang mungkin pernah Anda temui adalah "pretrained model" yang secara sederhana mengacu pada model yang telah dilatih, daripada memberikan Anda arsitekturnya dan meminta Anda melatihnya sendiri.
 
 ## Diffusing
 
@@ -18,14 +38,26 @@ Tindakan mengubah representasi abstrak dari suatu gambar menjadi gambar akhir. D
 
 Menyesuaikan seberapa banyak gambar akan mengikuti prompt Anda. Nilai yang lebih tinggi akan membuat gambar yang dihasilkan semakin mendekati prompt Anda dan nilai lebih rendah akan menghasilkan gambar lebih kreatif.
 
+{% content-ref url="../tutorial/text-to-image/cfg-classifier-free-guidance.md" %}
+[cfg-classifier-free-guidance.md](../tutorial/text-to-image/cfg-classifier-free-guidance.md)
+{% endcontent-ref %}
+
 ## Positive Prompt
 
 Deskripsi gambar yang akan dihasilkan oleh AI.
 
+{% content-ref url="../tutorial/prompting/" %}
+[prompting](../tutorial/prompting/)
+{% endcontent-ref %}
+
 ## Negative Prompt
 
 Masukkan apa yang tidak ingin Anda lihat. \
-Lebih lanjut [negative-prompt.md](../tutorial/prompting/negative-prompt.md "mention")
+Pelajari lebih lanjut&#x20;
+
+{% content-ref url="../tutorial/prompting/negative-prompt.md" %}
+[negative-prompt.md](../tutorial/prompting/negative-prompt.md)
+{% endcontent-ref %}
 
 ## Sampler
 
@@ -37,7 +69,11 @@ ini adalah konsep yang cukup teknis. Ini adalah opsi yang bisa Anda pilih ketika
 
 Singkatnya: output terlihat kurang lebih sama, apa pun metode pengambilan sampel yang Anda gunakan, perbedaannya sangat halus dan seharusnya tidak terlalu penting, yang mana yang Anda pilih. Beberapa orang mengatakan bahwa ada tiga kelompok: kelompok A (DDIM, Euler, DPM2, HEUN, LMS, DPM\_adaptive dan PLMS) lebih lembut dan berseni; kelompok B (DPM\_fast) memberikan hasil yang lebih bervariasi dan acak; dan kelompok C (DPM2, Euler\_a) memberikan hasil yang sedikit lebih fotorealistik dan jelas.&#x20;
 
-Lebih lanjut [sampling-method.md](../tutorial/text-to-image/sampling-method.md "mention")
+Pelajari lebih lanjut
+
+{% content-ref url="../tutorial/text-to-image/sampling-method.md" %}
+[sampling-method.md](../tutorial/text-to-image/sampling-method.md)
+{% endcontent-ref %}
 
 ## Seed
 

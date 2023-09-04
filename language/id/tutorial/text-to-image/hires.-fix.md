@@ -1,8 +1,8 @@
 # Hires. fix
 
-## Pendahuluan
+## Apa itu Hires. fix ?
 
-Pilihan untuk merender sebagian gambar Anda pada resolusi yang lebih rendah, meningkatkannya, dan kemudian menambahkan detail pada resolusi tinggi. Dengan kata lain, ini setara dengan menghasilkan gambar dalam txt2img, meningkatkannya melalui metode pilihan Anda, dan menjalankan pass kedua pada gambar yang sudah ditingkatkan skalanya di img2img untuk lebih menyempurnakan peningkatan dan menciptakan hasil akhir.
+Berfungsi untuk merender sebagian gambar Anda pada resolusi yang lebih rendah, meningkatkannya, dan kemudian menambahkan detail pada resolusi tinggi. Dengan kata lain, ini setara dengan menghasilkan gambar dalam txt2img, meningkatkannya melalui metode pilihan Anda, dan menjalankan pass kedua pada gambar yang sudah ditingkatkan skalanya di img2img untuk lebih menyempurnakan peningkatan dan menciptakan hasil akhir.
 
 Secara default, model berbasis SD1/2 menghasilkan gambar yang mengerikan pada resolusi yang sangat tinggi, karena model ini hanya dilatih pada 512px atau 768px. Metode ini memungkinkan untuk menghindari masalah ini dengan memanfaatkan komposisi gambar yang kecil dalam proses denoising pada versi yang lebih besar. Diaktifkan dengan mencentang kotak centang "Hires. fix" pada halaman txt2img.
 

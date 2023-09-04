@@ -1,7 +1,3 @@
----
-description: 'CLIP: Connecting text and images'
----
-
 # Text encoder
 
 Text encoder Stable Diffusion is a latent diffusion model conditioned on the (non-pooled) text embeddings of a CLIP ViT-L/14 text encoder. The text encoder is used to turn your prompt into a latent vector In the context of machine learning, a latent vector is a vector that represents a learned feature or representation of a data point that is not directly observable. For example, in the case of Stable Diffusion, the text encoder is used to turn your prompt into a latent vector that represents a learned feature or representation of the prompt that is not directly observable.

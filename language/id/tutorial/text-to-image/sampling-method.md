@@ -4,7 +4,7 @@ description: Sampling dalam Stable Diffusion
 
 # Sampling method
 
-## Penjelasan
+## Apa itu Sampling ?
 
 Untuk menghasilkan gambar, Stable Diffusion pertama-tama menghasilkan gambar yang benar-benar acak dalam ruang laten. Prediktor noise kemudian memperkirakan noise pada gambar. Noise yang diprediksi dikurangi dari gambar. Proses ini diulangi belasan kali. Pada akhirnya, Anda mendapatkan gambar yang bersih.
 

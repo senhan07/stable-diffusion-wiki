@@ -4,6 +4,8 @@ description: Penggunaan Negative Prompt dalam Stable Diffusion
 
 # Negative Prompt
 
+## Apa itu Negative Prompt ?&#x20;
+
 Negative Prompt adalah parameter yang memberi tahu Stable Diffusion tentang apa yang tidak ingin Anda lihat dalam gambar yang dihasilkan. Apabila ditentukan, ini akan memandu proses pembuatan gambar untuk tidak menyertakan berbagai hal dalam gambar menurut teks yang diberikan.
 
 Negative Prompt dapat mencegah menghasilkan hal-hal tertentu, gaya, memperbaiki beberapa kelainan gambar, dan sangat meningkatkan kualitas. Mari kita cermati contoh yang membandingkan gambar yang sama dengan dan tanpa prompt negatif:

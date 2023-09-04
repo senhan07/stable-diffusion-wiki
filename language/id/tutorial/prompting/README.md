@@ -12,7 +12,7 @@ Apa yang terjadi?
 
 Anda telah merencanakan semuanya di kepala Anda, dan dari gambar-gambar yang Anda lihat, semua orang mendapatkan hasil yang luar biasa. Mengapa anda tidak?
 
-Biar kutebak, Anda telah menulis sesuatu seperti "a green valley with mountains at the back? Anda belum menentukan hal lain. Itu perintah mentah. Sesuatu yang perlu Anda ingat adalah bahwa AI bukanlah pembaca pikiran (masih belum) dan sangat penting bagi AI untuk memahami apa yang Anda coba katakan kepadanya.
+Biar kutebak, Anda telah menulis sesuatu seperti "`a green valley with mountains at the back`"? Anda belum menentukan hal lain. Itu perintah mentah. Sesuatu yang perlu Anda ingat adalah bahwa AI bukanlah pembaca pikiran (masih belum) dan sangat penting bagi AI untuk memahami apa yang Anda coba katakan kepadanya.
 
 Ingat beberapa tahun yang lalu, ketika lagu "Despacito" ada di mana-mana? Dan kecuali Anda adalah orang yang bisa berbahasa Spanyol, liriknya tidak dapat dipahami. Namun, semua orang di seluruh dunia bernyanyi mengikuti lagu tersebut dan memintanya di setiap pub - tidak terlalu peduli atau, pada akhirnya, mendapatkan liriknya dengan benar. Hal serupa juga terjadi saat meminta petunjuk - Anda akan mendapatkan hasil dari AI, namun tidak seakurat yang Anda inginkan karena Anda hampir tidak dapat berkomunikasi dengan AI, dan dialognya tidak dapat dimengerti. Kemudian lagi, Anda akan mendapatkan apa yang Anda coba pada suatu saat, ketika Anda mempelajari apa yang harus dan tidak boleh ditanyakan kepada AI. Beruntung bagi Anda, itulah yang akan dibahas dalam panduan ini.
 

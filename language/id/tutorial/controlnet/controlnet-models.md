@@ -62,4 +62,4 @@ Dibandingkan dengan [depth model](controlnet-models.md#depth), model ini tampakn
 
 ### Anime Line Drawing
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>

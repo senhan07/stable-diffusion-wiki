@@ -1,5 +1,21 @@
 ---
 description: Pertanyaan yang Sering Diajukan
+cover: .gitbook/assets/FAQS.jpg
+coverY: 0
+layout:
+  cover:
+    visible: true
+    size: hero
+  title:
+    visible: false
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
 ---
 
 # FAQ
