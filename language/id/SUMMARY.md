@@ -47,10 +47,10 @@
   * [Lycoris](tutorial/fine-tuning/lycoris.md)
   * [Textual Inversion](tutorial/fine-tuning/textual-inversion.md)
 
-## Stable Diffusion
+## Lebih Lanjut
 
-* [What is Stable Diffusion](stable-diffusion/what-is-stable-diffusion/README.md)
-  * [Variational Autoencoder (VAE)](stable-diffusion/what-is-stable-diffusion/variational-autoencoder-vae/README.md)
-    * [Mean Squared Error (MSE) vs Exponential Moving Average (EMA) in VAE](stable-diffusion/what-is-stable-diffusion/variational-autoencoder-vae/mean-squared-error-mse-vs-exponential-moving-average-ema-in-vae.md)
-  * [Diffuser](stable-diffusion/what-is-stable-diffusion/diffuser.md)
-  * [Text encoder](stable-diffusion/what-is-stable-diffusion/text-encoder.md)
+* [What is Stable Diffusion](lebih-lanjut/what-is-stable-diffusion/README.md)
+  * [Variational Autoencoder (VAE)](lebih-lanjut/what-is-stable-diffusion/variational-autoencoder-vae/README.md)
+    * [Mean Squared Error (MSE) vs Exponential Moving Average (EMA) in VAE](lebih-lanjut/what-is-stable-diffusion/variational-autoencoder-vae/mean-squared-error-mse-vs-exponential-moving-average-ema-in-vae.md)
+  * [Diffuser](lebih-lanjut/what-is-stable-diffusion/diffuser.md)
+  * [Text encoder](lebih-lanjut/what-is-stable-diffusion/text-encoder.md)

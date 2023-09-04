@@ -1,6 +1,6 @@
 # Clip Skip
 
-## Fungsi Clip Skip
+## Fungsi
 
 * Ini memungkinkan Anda melewatkan sebagian lapisan model CLIP apabila menghasilkan gambar. Hal ini bisa berguna untuk mendapatkan hasil yang lebih kreatif, karena model CLIP terkadang terlalu spesifik dalam deskripsinya.
 * Ini dapat mempercepat proses pembuatan gambar, karena algoritme tidak perlu memproses banyak lapisan model CLIP.

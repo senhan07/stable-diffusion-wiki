@@ -4,7 +4,7 @@ Menambahkan noise tambahan dari seed acak, ditentukan oleh pengaturan, default k
 
 Salah satu tujuan dari tweak ini adalah untuk menambahkan kembali detail tambahan ke dalam hires fix. Untuk pemahaman yang sangat sederhana, Anda dapat menganggapnya sebagai persilangan antara peningkatan GAN dan peningkatan laten.
 
-Contoh di bawah ini adalah gambar 512x512 dengan hires fix yang diterapkan, menggunakan upscaler GAN (4x-UltraSharp), pada kekuatan denoising 0,45. Gambar di sebelah kanan memanfaatkan tweak noise ekstra ini.
+Contoh dibawah ini adalah gambar 512x512 dengan hires fix yang diterapkan, menggunakan upscaler GAN (4x-UltraSharp), pada kekuatan denoising 0,45. Gambar di sebelah kanan memanfaatkan tweak noise ekstra ini.
 
 |                                                                                                        Extra noise = 0                                                                                                       |                                                                                                     Extra noise = 0.2                                                                                                     |
 | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |

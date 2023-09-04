@@ -4,7 +4,7 @@ description: Penekanan kata pada prompt
 
 # Attention / Emphasis
 
-## Emphasis / Penekanan
+## Penekanan
 
 Menggunakan `()` pada prompt akan meningkatkan penekanan pada kata-kata yang diapit, dan `[]` akan menurunkannya. Anda dapat menggabungkan beberapa pengubah:
 
