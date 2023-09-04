@@ -2,7 +2,7 @@
 
 ## Welcome
 
-* [Welcome](README.md)
+* [👋 Welcome](README.md)
 * [Istilah Dasar](welcome/istilah-dasar.md)
 * [Panduan Instalasi](welcome/installation-and-running.md)
 
@@ -48,3 +48,7 @@
   * [LoRA](tutorial/fine-tuning/lora.md)
   * [Perbandingan](tutorial/fine-tuning/perbandingan.md)
 * [Upscaling](tutorial/upscaling.md)
+
+***
+
+* [🤝 Berkontribusi](berkontribusi.md)
