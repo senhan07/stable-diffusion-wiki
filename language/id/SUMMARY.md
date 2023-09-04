@@ -25,6 +25,7 @@
   * [CLIP Interrogator](tutorial/prompting/clip-interrogator.md)
 * [Text to Image](tutorial/text-to-image/README.md)
   * [Sampling method](tutorial/text-to-image/sampling-method.md)
+  * [Variational Autoencoder (VAE)](tutorial/text-to-image/variational-autoencoder-vae.md)
   * [CFG (Classifier Free Guidance)](tutorial/text-to-image/cfg-classifier-free-guidance.md)
   * [Hires. fix](tutorial/text-to-image/hires.-fix.md)
   * [Upscalers](tutorial/text-to-image/upscalers.md)
@@ -47,11 +48,3 @@
   * [LoRA](tutorial/fine-tuning/lora.md)
   * [Perbandingan](tutorial/fine-tuning/perbandingan.md)
 * [Upscaling](tutorial/upscaling.md)
-
-## Lebih Lanjut
-
-* [Apa itu Stable Diffusion ?](lebih-lanjut/what-is-stable-diffusion/README.md)
-  * [Variational Autoencoder (VAE)](lebih-lanjut/what-is-stable-diffusion/variational-autoencoder-vae/README.md)
-    * [Mean Squared Error (MSE) vs Exponential Moving Average (EMA) in VAE](lebih-lanjut/what-is-stable-diffusion/variational-autoencoder-vae/mean-squared-error-mse-vs-exponential-moving-average-ema-in-vae.md)
-  * [Diffuser](lebih-lanjut/what-is-stable-diffusion/diffuser.md)
-  * [Text encoder](lebih-lanjut/what-is-stable-diffusion/text-encoder.md)
