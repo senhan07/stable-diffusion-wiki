@@ -52,16 +52,11 @@ Deskripsi gambar yang akan dihasilkan oleh AI.
 
 ## Negative Prompt
 
-Masukkan apa yang tidak ingin Anda lihat. \
-Pelajari lebih lanjut&#x20;
+Masukkan apa yang tidak ingin Anda lihat.&#x20;
 
 {% content-ref url="../tutorial/prompting/negative-prompt.md" %}
 [negative-prompt.md](../tutorial/prompting/negative-prompt.md)
 {% endcontent-ref %}
-
-## Sampler
-
-Metode pengambilan sampel difusi.
 
 ## **Sampling Method**
 
